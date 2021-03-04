@@ -15,3 +15,6 @@ Features:
 - registration, login
 - Search by(zip code, state, city, title)
 - Add a messenger?
+
+# Database design
+![Sellbuy Database design](./docs/myapp.png)
