@@ -7,8 +7,7 @@ create table advertise
     created_at  datetime      not null default NOW(),
     main_photo  varchar(200)  not null,
     price       decimal(6, 2) not null,
-    description varchar(500)  not null,
-    key_id      char(36)      not null
+    description varchar(5000)  not null
 );
 
 create table photo
